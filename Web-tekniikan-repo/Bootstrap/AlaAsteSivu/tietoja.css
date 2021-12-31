@@ -1,0 +1,13 @@
+#footer {
+    position:fixed;
+    bottom:0px;
+  }
+  .row{
+    text-align: center;
+  }
+  p {
+    font-family: ink free;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+  }

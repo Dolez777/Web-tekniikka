@@ -1,0 +1,89 @@
+body {    
+    background: url('images/Liitutaulu29.jpg') no-repeat center fixed;     
+    background-size: 100% 100%;
+}
+nav {
+    background: url("images/PUUKUVA.jpg") fixed;     
+    background-size: 100% 100%;
+    height: 50px;
+    border: 3px solid #341A06;
+}
+a {
+    color: white;
+}
+.nav-link {
+    color: white;
+    transition: color white;
+}
+a:hover {
+    color: white;
+}
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 50px;
+    background: url("images/PUUKUVA.jpg") fixed;
+    background-size: 100% 100%;
+    border: 3px solid #341A06;
+ }
+ body {
+    margin:0;
+    padding:0;
+    height:100%;
+ }
+ .navbar-brand {
+     font-family: fantasy;
+     font-size: 1.9em;
+ }
+ .row {
+     background-color: transparent;
+ }
+ .col-3 {
+     height: 300px;
+     margin-right: 100px;
+     
+     border: 5px solid #341A06;
+     border-radius: 10px;
+ }
+#yksi {
+background-image: url("images/TELLUS.webp");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.container {
+    margin-left: 600px;
+    margin-top: 30px;
+}
+*[id^="alempi"] {
+    margin-top: 50px;
+    background-image: url();
+}
+#kaksi {
+    background-image: url("images/MATIKKA.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#alempiCol3 {
+    background-image: url("images/PASKA.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+#alempiCol4 {
+    background-image: url("images/TIMPPARILLAATAAS.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family:Ink Free;
+    font-weight: bold;
+    color: white;
+}
+h1:hover {
+    
+      cursor: url("images/LIITU2999.png"), default;  
+        
+        
+}

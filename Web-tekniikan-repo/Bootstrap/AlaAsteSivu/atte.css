@@ -1,0 +1,25 @@
+*[id^="lask"]
+{
+    background-color: white;
+    margin-top: 3em;
+    padding: 2em;
+    border-radius: 5px;
+    height: 75%;
+    font-size: larger;
+}
+
+#laatikko{
+    padding: 1em;
+}
+
+footer{
+    bottom: 0px;
+    margin-top: 3em;
+    position: relative;
+}
+
+#tuloslaatikko{
+    float: right;
+    font-size: larger;
+    margin-right: 2em;
+}

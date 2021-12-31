@@ -1,0 +1,67 @@
+footer {
+  bottom: 0px;
+  position: relative;
+}
+.container {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-left: 10px solid #341a06;
+  border-right: 10px solid #341a06;
+}
+.row {
+  margin-bottom: 5em;
+  justify-content: center;
+}
+
+p {
+  font-family: ink free;
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+}
+
+.col-12 {
+  width: 17em;
+}
+
+label {
+  font-family: ink free;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+#tarkista,
+#uudestaan {
+  border-radius: 7px;
+  padding: 10px 24px;
+  font-size: 1.5em;
+  background-image: url("BETASIVU/images/Puu2.png");
+  color: white;
+  border: 3px solid black;
+  font-family: ink free;
+  font-weight: bolder;
+  cursor: url("BETASIVU/images/LIITU2999.png"), default;
+}
+#uudestaan,
+#oikeintext {
+  visibility: hidden;
+}
+
+.form-check-input {
+  cursor: url("BETASIVU/images/LIITU2999.png"), default;
+  width: 2em;
+  height: 2em;
+}
+.coloroikein {
+  color: chartreuse;
+}
+
+.colorvaarin {
+  color: red;
+}
+#tehkuva {
+  width: 15em;
+  height: 15em;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px black;
+}

@@ -1,0 +1,114 @@
+#suomivisa {
+    margin-top: 4em;
+    background-image: url("videot/finlandia.webp");
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    font-family: Ink Free;
+    font-weight: bold;
+    cursor: url("BETASIVU/images/LIITU2999.png"), default;
+}
+h3 {
+    color:  #002F6C;
+    font-weight: bold;
+    margin-left: 1em;
+}
+label.radio {
+    cursor: pointer
+}
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+label.radio span {
+    padding: 6px 6px;
+    border: 2px solid  #002F6C;
+    display: inline-block;
+    color: #002F6C;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-left: 1em;
+}
+label.radio input:checked+span {
+    border-color: #002F6C;
+    background-color: #002F6C;
+    color: white;
+}
+#answer {
+    color: #002F6C;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+}
+.question {
+    width: inherit;
+}
+.question, button, .d-flex {
+    border-radius: 10px;
+    display: inline-block;
+    align-items: center;
+}
+.question, .d-flex {
+    margin-top: 1em;
+}
+.btn:hover {
+    background-color: #002F6C;
+    border: 1px solid #002F6C
+}
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.btn:active {
+    outline: 0;
+    box-shadow: none 
+}
+#again {
+    border-radius: 5px;
+    background-color: #002F6C;
+    visibility: hidden;
+    color: white
+}
+#checkResults {
+    border-radius: 5px;
+    background-color: #002F6C;
+    color: white;
+}
+.colorRight {
+    color: green;
+}
+.colorWrong {
+    color: red;
+}
+footer {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    margin-top: 1em;
+}
+
+@media (min-height: 749px) {
+    footer {
+        position: fixed;
+    }
+}
+
+@media(max-width: 411px) {
+    footer{
+        position: relative;
+    }
+}
+
+@media(max-width:576px) {
+    .question {
+        width: 100%;
+        word-spacing: 2px
+    }
+    .answer {
+        margin-left: 1em;
+    }
+
+}

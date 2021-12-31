@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="pohja.css" />
+        <link rel="stylesheet" href="atte.css" />
+        <link rel="icon" href="BETASIVU/images/Tabicon.png" />
+        <title>Matikka</title>
+    </head>
+    <body>
+        <header id="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" id="navbar-brand">Liitutaulu</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"> </span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarNavAltMarkup"
+                    >
+                        <div class="navbar-nav">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                id="linkki"
+                                href="index.html"
+                                >Etusivu</a
+                            >
+                            <a
+                                class="nav-link"
+                                id="linkki"
+                                href="aapokiviniemi.html"
+                                >Maantieto</a
+                            >
+                            <a
+                                class="nav-link"
+                                id="linkki"
+                                href="attetaajoranta.html"
+                                >Matikka</a
+                            >
+                            <a
+                                class="nav-link"
+                                id="linkki"
+                                href="teemuvälimäki.html"
+                                >Historia</a
+                            >
+                            <a
+                                class="nav-link"
+                                id="linkki"
+                                href="essahaapanen.html"
+                                >Suomi</a
+                            >
+                            <a class="nav-link" id="linkki" href="tietoja.html"
+                                >Tietoja</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container-fluid">
+            <div class="row" id="headline">
+                <div class="col-12" id="headlinetext">
+                    <h1>Matikka</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="laatikko">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div id="lasku1">
+                        <p>Tehtävä 1</p>
+                        <p id="teht1"></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div id="laske1">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra1"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault1"
+                                id="1"
+                            >
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra2"
+                                checked
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault2"
+                                id="2"
+                            >
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra3"
+                                checked
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault2"
+                                id="3"
+                            >
+                            </label>
+                        </div>
+                        <button class="tarkista" onclick="tark1()">
+                            Tarkista
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="laatikko">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div id="lasku2">
+                        <p>Tehtävä 2</p>
+                        <p id="teht2"></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div id="laske2">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra4"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault1"
+                                id="4"
+                            >
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra5"
+                                checked
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault2"
+                                id="5"
+                            >
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra6"
+                                checked
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault2"
+                                id="6"
+                            >
+                            </label>
+                        </div>
+                        <button class="tarkista" onclick="tark2()">
+                            Tarkista
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="laatikko">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div id="lasku3">
+                        <p>Tehtävä 3</p>
+                        <p id="teht3"></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div id="laske3">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra7"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault1"
+                                id="7"
+                            >
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra8"
+                                checked
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault2"
+                                id="8"
+                            >
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra9"
+                                checked
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault2"
+                                id="9"
+                            >
+                            </label>
+                        </div>
+                        <button class="tarkista" onclick="tark3()">
+                            Tarkista
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="laatikko">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div id="lasku4">
+                        <p>Tehtävä 4</p>
+                        <p id="teht4"></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div id="laske4">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra10"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault1"
+                                id="10"
+                            >
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra11"
+                                checked
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault2"
+                                id="11"
+                            >
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra12"
+                                checked
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault2"
+                                id="12"
+                            >
+                            </label>
+                        </div>
+                        <button class="tarkista" onclick="tark4()">
+                            Tarkista
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="laatikko">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div id="lasku5">
+                        <p>Tehtävä 5</p>
+                        <p id="teht5"></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div id="laske5">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra13"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault1"
+                                id="13"
+                            >
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra14"
+                                checked
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault2"
+                                id="14"
+                            >
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="flexRadioDefault"
+                                id="ra15"
+                                checked
+                            />
+                            <label
+                                class="form-check-label"
+                                for="flexRadioDefault2"
+                                id="15"
+                            >
+                            </label>
+                        </div>
+                        <button class="tarkista" onclick="tark5()">
+                            Tarkista
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tuloslaatikko">
+            <button onclick="reset()">Tee uudestaan</button>
+
+            <h2 id="tulos"></h2>
+        </div>
+
+        <footer class="footer navbar-fixed-bottom" id="footer">
+            <h2>Ryhmä 6: Aapo, Teemu, Atte, Essa</h2>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+        <script src="atteScript.js"></script>
+    </body>
+</html>

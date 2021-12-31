@@ -1,0 +1,45 @@
+footer {
+    position: relative;
+    bottom: 0px;
+    margin-top: 1em;
+}
+#headline {
+    text-shadow: none;
+}
+
+.container-fluid {
+    text-align: center;
+    font-size: 24;
+
+    color: black;
+}
+
+.question {
+    color: white;
+    padding: 1em;
+}
+
+#submit {
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#quiz {
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-family: Ink Free;
+}
+
+@media (min-height: 787px) {
+    footer{
+        position: fixed;
+    }
+}
+
+@media(max-width: 411px) {
+    footer{
+        position: relative;
+    }
+}
